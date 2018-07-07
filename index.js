@@ -94,7 +94,7 @@ function endGame() {
     rock.remove()
   })
   
-  document.removeEventListener('keydown', moveDodger())
+  document.removeEventListener('keydown', moveDodger)
     
   alert('You Lose!')
 }
@@ -146,7 +146,7 @@ function positionToInteger(p) {
 }
 
 function start() {
-  window.addEventListener('keydown', moveDodger(e))
+  window.addEventListener('keydown', moveDodger)
 
   START.style.display = 'none'
 
