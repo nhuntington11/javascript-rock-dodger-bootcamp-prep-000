@@ -126,7 +126,6 @@ function moveDodgerRight() {
   var leftValue = DODGER.style.left.replace('px', '')
   var leftValueInteger = parseInt(leftValue, 10)
   
-  function moveRight() {
     if (leftValueInteger < 360) {
       DODGER.style.left = `${leftValueInteger + 4}px`
       window.requestAnimationFrame(moveRight)
