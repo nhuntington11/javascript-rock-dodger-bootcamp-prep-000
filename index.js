@@ -131,7 +131,6 @@ function moveDodgerRight() {
       DODGER.style.left = `${leftValueInteger + 4}px`
       window.requestAnimationFrame(moveRight)
       return
-      }
     }
   }
   window.requestAnimationFrame(moveRight)
