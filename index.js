@@ -116,12 +116,10 @@ function moveDodgerLeft() {
   var leftValueInteger = parseInt(leftValue, 10)
   DODGER.style.left = `${leftValueInteger - 4}px`
   
-  function moveLeft() {
-    if (leftValueInteger > 0) {
-    window.requestAnimationFrame(moveLeft)
-    }
+  if (leftValueInteger > 0) {
+  window.requestAnimationFrame(moveDodgerLeft)
   }
-  window.requestAnimationFrame(moveLeft)
+  window.requestAnimationFrame(moveDodgerLeft)
 }
 
 function moveDodgerRight() {
