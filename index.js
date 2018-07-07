@@ -63,7 +63,7 @@ function createRock(x) {
     rock.style.top = `${topValueInteger + 2}px`
     
     if (checkCollision(rock)) {
-      return endGame()
+      endGame()
     }
 
     if (topValueInteger < 380) {
