@@ -132,7 +132,7 @@ function moveDodgerRight() {
       a = 1
       DODGER.style.left = `${leftValueInteger + 4}px`
       window.requestAnimationFrame
-      if (a = 1) {
+      if (a === 1) {
         a = 0
         return
       }
