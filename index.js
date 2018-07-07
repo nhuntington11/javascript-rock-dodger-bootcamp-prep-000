@@ -72,8 +72,6 @@ function createRock(x) {
         rock.remove()
     }
   }
-  
-
   window.requestAnimationFrame(moveRock)
 
   ROCKS.push(rock)
